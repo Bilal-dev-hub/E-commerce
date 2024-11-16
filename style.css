@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    background: linear-gradient(to right,#ff1a66,#ff6699)
+}
+
+header {
+    padding: 50px;
+    font-size: 22px;
+    color: aliceblue;
+}
+
+header span {
+    margin: 10px;
+}
+
+header ul {
+    float: right;
+    list-style: none;
+}
+
+header ul {
+    list-style: none;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 4px;
+    transition: 0.2s;
+
+}
+ header ul li a{
+    color: beige;
+    text-decoration: none;
+ }
+ header ul li:nth-child(1){
+    background: black;
+ }
+ header ul li :hover{
+    background: black;
+ }
+ main{
+    text-align: center;
+    padding-top: 180px;
+ }
+ main p{
+    font-size: 40px;
+    color: white;
+ }
+
+
+ main button{
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    margin-top: 30px;
+ }
+ main button:hover{
+    font-size: 22px;
+ }
